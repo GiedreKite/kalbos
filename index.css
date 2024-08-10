@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --balta: #fff;
+    --juoda: #000000;
+    --melyna: #214c7e;    
+}
+body{
+    background-color: var(--melyna);
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(8, 8, 88);
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.enterContainer {
+    color: rgb(8, 8, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: row;
+    gap: 2rem;
+    border-radius: 5px;    
+}
+
+.text {
+    font-size: 2rem;
+    background-color: wheat;
+    color: blue;
+}
+
+input[type="text"] {
+    font-size: 2rem;
+    background-color: blue;
+    color: wheat;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+button {
+    font-size: 2rem;
+    background-color: blue;
+    color: wheat;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: wheat;
+    color: blue;
+}
+
+
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+#list {
+    list-style: none;
+}
+
+#list li {
+    width: 10rem;
+    font-size: 1.5rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    background-color: white;
+   
+}
+#list li:hover {
+    background-color: rgb(163, 161, 161);
+}
